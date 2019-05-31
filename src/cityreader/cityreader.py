@@ -18,18 +18,6 @@ import csv
 
 cities = []
 
-# class City():
-  # def __init__(self, city='', lat=0, lon=0, state_name="", county_name="",
-               # population=0, density=0, timezone="", zips=[]):
-    # self.name = city
-    # self.lat = float(lat)
-    # self.lon = float(lon)
-    # self.state_name = state_name
-    # self.county_name = county_name
-    # self.population = int(population)
-    # self.density = int(density)
-    # self.timezone = timezone
-    # self.zips = zips
 class City():
     def __init__(self, city="", lat=0, lng=0, state_name="", county_name="", population=0, density=0, timezone="", zips=[]):
         self.name = city
